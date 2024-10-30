@@ -7,7 +7,7 @@ conda create -n FLOP python=3.8.10
 conda activate FLOP
 conda install pytorch torchvision torchaudio cudatoolkit=11.1 -c pytorch-lts -c nvidia
 pip install onnx==1.8.1
-pip instal future==0.18.3
+pip install future==0.18.3
 pip install protobuf==3.20
 pip install numpy==1.23.4
 ```
